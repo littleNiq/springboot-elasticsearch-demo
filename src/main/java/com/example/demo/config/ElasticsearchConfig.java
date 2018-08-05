@@ -20,10 +20,9 @@ public class ElasticsearchConfig {
                 InetAddress.getByName("localhost"),
                 9300
         );
-        // 设置名字
-        Settings settings = Settings.builder().put("cluster.name","wali").build();
+        Settings settings = Settings.builder().put("cluster.name", "wali").build();
 
-        TransportClient client =  new PreBuiltTransportClient(settings);
+        TransportClient client = new PreBuiltTransportClient(settings);
         client.addTransportAddress(node);
         return client;
     }
