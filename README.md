@@ -1,7 +1,7 @@
 # springboot-elasticsearch-demo
 基于Spring Boot的Elasticsearch 操作 demo
 
-## 环境：IDEA + MAVEN + JDK1.8
+## 环境：IDEA + MAVEN + JDK8
 ### 简介
 * elasticsearch的java api练习,涉及增删改查，clone下来就可以使用。 
 
